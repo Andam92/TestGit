@@ -1,0 +1,9 @@
+- git init -> crea una repository locale;
+- git status -> controlla lo stato della repository;
+
+- git add nomefile -> traccia un file;
+- git add .estensione -> traccia tutti i file con quella estensione;
+- git add . -> traccia tutti i file;
+
+- git rm --cached <file>... -> rimuove uno o più file dalla staging area (prima del commit);
+- git commit -m 'messaggio del commit' -> salva i file tracciati (solo quelli) nella repository locale;
