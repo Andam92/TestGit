@@ -7,3 +7,8 @@
 
 - git rm --cached <file>... -> rimuove uno o più file dalla staging area (prima del commit);
 - git commit -m 'messaggio del commit' -> salva i file tracciati (solo quelli) nella repository locale;
+
+- git branch -M main -> crea un branch chiamato main;
+
+- git remote add origin https://github.com/Andam92/TestGit.git -> collega repo locale a repo remota;
+- git push -u origin main -> effettua il push dei file locali 
