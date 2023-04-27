@@ -1,14 +1,19 @@
-- git init -> crea una repository locale;
-- git status -> controlla lo stato della repository;
+- git init -> crea una repository locale
+- git status -> controlla lo stato della repository
 
-- git add nomefile -> traccia un file;
-- git add .estensione -> traccia tutti i file con quella estensione;
-- git add . -> traccia tutti i file;
+- git add nomefile -> traccia un file
+- git add .estensione -> traccia tutti i file con quella estensione
+- git add . -> traccia tutti i file
 
-- git rm --cached <file>... -> rimuove uno o più file dalla staging area (prima del commit);
-- git commit -m 'messaggio del commit' -> salva i file tracciati (solo quelli) nella repository locale;
+- git rm --cached <file>... -> rimuove uno o più file dalla staging area (prima del commit)
+- git commit -m 'messaggio del commit' -> salva i file tracciati (solo quelli) nella repository locale
 
-- git branch -M main -> crea un branch chiamato main;
+- git branch -M main -> crea un branch principale chiamato main
 
-- git remote add origin https://github.com/Andam92/TestGit.git -> collega repo locale a repo remota;
+- git remote add origin https://github.com/Andam92/TestGit.git -> collega repo locale a repo remota
 - git push -u origin main -> effettua il push dei file locali 
+
+- git branch nomebranch -> crea un nuovo branch secondario
+- git checkout nomebranch -> per spostarsi sul branch
+
+- git branch -> stampa elenco dei branch
