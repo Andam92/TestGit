@@ -17,3 +17,10 @@
 - git checkout nomebranch -> per spostarsi sul branch
 
 - git branch -> stampa elenco dei branch
+
+- git merge nomebranch -> esegue merge dal branch corrente a nomebranch
+
+- git branch -d nomebranch -> killa un branch, ma solo se esso è stato già "mergeato"
+- git branch -D nomebranch -> killa un branch sul quale non è stato fatto nessun merge
+
+- git branch --no-merged -> elenco dei branch non megeati
